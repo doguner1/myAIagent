@@ -65,7 +65,7 @@ Resmî belgeler: - MCP: https://www.antigravity.google/docs/mcp - Skills:
 https://www.antigravity.google/docs/skills - Plugins:
 https://www.antigravity.google/docs/plugins
 
-## 3. Altı kaynak repo ve kurulum politikası
+## 3. Kaynak repolar ve kurulum politikası (8 Araç)
 
 ### 3.1 `DeusData/codebase-memory-mcp`
 
@@ -215,6 +215,59 @@ yalnızca localhost'a bağlı bir reverse proxy tasarla. Proxy arkasında
 Vane ilk aşamada isteğe bağlıdır; tüm araçlar için ortak port yaratmanın
 gerekçesi değildir.
 
+### 3.7 `msitarzewski/agency-agents`
+
+Repo: https://github.com/msitarzewski/agency-agents
+
+**Amaç:** Mühendislik, tasarım, ürün, satış, pazarlama ve strateji gibi
+farklı disiplinlerde uzmanlaşmış onlarca yapay zeka ajanı ve rol tanımından
+oluşan modüler ajans kadrosu ("The Agency"). Her ajan kendine özgü bir
+uzmanlık, çalışma yöntemi, iletişim dili ve somut teslimat (deliverables)
+standartlarına sahiptir.
+
+**Plan:** 1. Repo'yu doğrudan çalıştırılabilir bir servis değil, **uzman
+ajan/rol ve beceri kataloğu** olarak değerlendir. 2. Kataloğun tamamını tek
+seferde körlemesine sisteme yükleme; yalnızca çalışma sürecinde ihtiyaç
+duyulan bölümleri (Divisions: Engineering, Design vb.) seç. 3. Antigravity
+entegrasyonu için projenin dönüştürme ve kurulum betiklerini incele
+(`scripts/convert.sh` ve `./scripts/install.sh --tool antigravity`). 4. Seçilen
+ajanları Antigravity'nin standart Subagent (`agents/`) veya Skill
+(`<workspace>/.agents/skills/` ya da `~/.gemini/config/skills/`) yapısına
+aktar; Claude/Cursor'a özel komutları ve hook'ları Antigravity biçimine
+uyarla. 5. Ajan tanımlarının salt yönlendirici persona/kılavuz olduğunu,
+sisteme kontrolsüz kabuk (shell) veya dosya silme yetkisi vermediğini doğrula.
+6. Seçilen rollerin Antigravity oturumunda doğru bağlam ve çıktılar ürettiğini
+test et.
+
+Port gerektirmez; dosya tabanlı kural ve ajan kataloğudur.
+
+### 3.8 `JuliusBrussee/caveman`
+
+Repo: https://github.com/JuliusBrussee/caveman
+
+**Amaç:** Kodlama ajanlarının yanıtlarındaki gereksiz selamlama, gevezelik ve
+tekrarı ortadan kaldırarak token kullanımını ve maliyeti %33 ile %65 oranında
+azaltan, bağımsız araştırmalarla (Adobe Research, JetBrains, Elastic Labs)
+doğrulanmış özlü yanıt ve girdi optimizasyon aracı (Skill + Proxy).
+
+**Plan:** 1. Aracı iki kademeli olarak değerlendir: **Küçük Taş (Skill)** ve
+**Büyük Taş (Proxy)**. 2. **İlk olarak Skill katmanını entegre et:**
+Antigravity için `/caveman` formatını (ASD-STE100 kontrollü dil ilkeleri:
+aktif fiil, tek cümle kuralı, gereksiz nezaket yok; ancak kod blokları, dosya
+yolları, hata mesajları ve güvenlik uyarıları harfi harfine korunur) yerel bir
+Antigravity becerisi olarak tanımla. 3. Skill'i `npx skills add JuliusBrussee/caveman -g`
+ile veya yerel `SKILL.md` yönergesi olarak sisteme dahil et. 4. **Proxy
+katmanını (The Proxy)** opsiyonel değerlendir: Sistemde Node.js `22.13+`
+sürümünü doğrula; ajan oturumlarında devasa log, CSV, JSON veya test çıktıları
+okunacaksa `caveman` CLI sıkıştırma komutlarını (`caveman shrink`, `caveman browse`)
+test et. 5. Telemetri politikasını kontrol et; dışarıya kullanım verisi
+gitmemesi için `caveman telemetry off` veya `DO_NOT_TRACK=1` ortam değişkenini
+zorunlu kıl. 6. Kod ve veri bütünlüğü testi yap: Caveman modunun kod bloklarını
+ve diff'leri eksiltmediğini, sadece açıklayıcı metinleri kısalttığını doğrula.
+
+Skill modu port gerektirmez; Proxy modu yerel ara süreçtir ve dış ağa port
+açmaz.
+
 ## 4. Önerilen mimari
 
 ### İlk aşama: mümkün olduğunca portsuz
@@ -227,6 +280,8 @@ gerekçesi değildir.
     ederek.
 -   **Claude Plugins Official:** Seçili bileşenler için katalog; toplu
     kurulum yok.
+-   **Agency Agents:** Uzmanlık/rol ve beceri kataloğu (Antigravity subagent ve skill yapısına uyarlanır).
+-   **Caveman:** Token optimizasyonu ve özlü yanıt katmanı (yerel skill + opsiyonel proxy).
 -   **Vane:** Kullanıcı web arayüzü istiyorsa isteğe bağlı Docker
     servisi.
 
@@ -357,6 +412,8 @@ Aşağıdakiler kanıtlanmadan işi tamamlandı sayma:
     açıkça belirtildi.
 -   [ ] Claude eklentileri Antigravity uyumlu diye yanlışlıkla topluca
     kurulmadı.
+-   [ ] Agency Agents içinden seçilen roller Antigravity skill/subagent formatında sorunsuz algılanıyor.
+-   [ ] Caveman skill kuralı test edildi; kod blokları eksiksiz, metinler özlü ve telemetri kapalı.
 -   [ ] Vane kurulmuşsa arayüz yalnızca yerel makineden erişilebiliyor.
 -   [ ] Gereksiz port açılmadı.
 -   [ ] Gizli değerler loglara veya depoya yazılmadı.
@@ -425,6 +482,8 @@ local-ai-toolchain/
 │   ├── one-skill-to-rule-them-all/
 │   ├── api-anything/
 │   ├── agent-reach/
+│   ├── agency-agents/
+│   ├── caveman/
 │   └── Vane/
 └── .gitignore
 ```
