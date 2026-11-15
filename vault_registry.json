@@ -1,0 +1,319 @@
+{
+  "codebase-memory-mcp": {
+    "repo": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp.git",
+    "category": "Otonom Ajan & Kod Tabanı Hafızası",
+    "path": "/Users/qwerty/Desktop/ai/repos/codebase-memory-mcp",
+    "commit": "612eee2518ef84cc573e491fdee5fa5c90264cb5",
+    "cloned_at": "2026-11-08T17:32:51.561505",
+    "status": "mirrored"
+  },
+  "claude-plugins-official": {
+    "repo": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official.git",
+    "category": "Resmi Claude Eklentileri & Beceriler",
+    "path": "/Users/qwerty/Desktop/ai/repos/claude-plugins-official",
+    "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
+    "cloned_at": "2026-11-08T17:32:54.704066",
+    "status": "mirrored"
+  },
+  "one-skill-to-rule-them-all": {
+    "repo": "rebelytics/one-skill-to-rule-them-all",
+    "url": "https://github.com/rebelytics/one-skill-to-rule-them-all.git",
+    "category": "Meta-Öğrenme & Görev Gözlemcisi (task-observer)",
+    "path": "/Users/qwerty/Desktop/ai/repos/one-skill-to-rule-them-all",
+    "commit": "046b8f2aa6bdae369a93ae563889b7cc449d17ad",
+    "cloned_at": "2026-11-08T17:32:56.002132",
+    "status": "mirrored"
+  },
+  "api-anything": {
+    "repo": "goodnight000/api-anything",
+    "url": "https://github.com/goodnight000/api-anything.git",
+    "category": "Arayüzden Hızlı HTTP API Çıkarma",
+    "path": "/Users/qwerty/Desktop/ai/repos/api-anything",
+    "commit": "985ae8f65f4c4918f24080bd7dbaf51fe92e6bf6",
+    "cloned_at": "2026-11-08T17:33:01.172618",
+    "status": "mirrored"
+  },
+  "agent-reach": {
+    "repo": "Panniantong/agent-reach",
+    "url": "https://github.com/Panniantong/agent-reach.git",
+    "category": "16 Platformlu İnternet & Sosyal Medya Tarayıcısı",
+    "path": "/Users/qwerty/Desktop/ai/repos/agent-reach",
+    "commit": "c70ae6da5d39bc90e09ad2ae0575ccc89f31e284",
+    "cloned_at": "2026-11-08T17:33:02.636595",
+    "status": "mirrored"
+  },
+  "vane": {
+    "repo": "ItzCrazyKns/Vane",
+    "url": "https://github.com/ItzCrazyKns/Vane.git",
+    "category": "Yerel Web Arayüzü & Çalışma Alanı",
+    "path": "/Users/qwerty/Desktop/ai/repos/vane",
+    "commit": "348feca3e378fb4157b217724ed508dc707f853f",
+    "cloned_at": "2026-11-08T17:33:19.439638",
+    "status": "mirrored"
+  },
+  "agency-agents": {
+    "repo": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents.git",
+    "category": "Çok Disiplinli Uzman Ajan Kadrosu",
+    "path": "/Users/qwerty/Desktop/ai/repos/agency-agents",
+    "commit": "b859c515d813efcfc4755d3471dd9e7686c7706d",
+    "cloned_at": "2026-11-08T17:33:23.029887",
+    "status": "mirrored"
+  },
+  "caveman": {
+    "repo": "JuliusBrussee/caveman",
+    "url": "https://github.com/JuliusBrussee/caveman.git",
+    "category": "Token Optimizasyonu & Cerrahi Müdahale",
+    "path": "/Users/qwerty/Desktop/ai/repos/caveman",
+    "commit": "1e91f1306d602d4ca23618701b1185575ae1869b",
+    "cloned_at": "2026-11-08T17:33:25.493935",
+    "status": "mirrored"
+  },
+  "ai-memory": {
+    "repo": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory.git",
+    "category": "Epizodik Uzun Vadeli Hafıza",
+    "path": "/Users/qwerty/Desktop/ai/repos/ai-memory",
+    "commit": "fec76f18c15835bb2dc5c2be3081ce4db0c1270e",
+    "cloned_at": "2026-11-08T17:33:35.325170",
+    "status": "mirrored"
+  },
+  "mirofish": {
+    "repo": "666ghj/MiroFish",
+    "url": "https://github.com/666ghj/MiroFish.git",
+    "category": "Sürü Zekası & Virallik Simülasyonu",
+    "path": "/Users/qwerty/Desktop/ai/repos/mirofish",
+    "commit": "7657031ac01184afe2cb220f5ee3545573b5e843",
+    "cloned_at": "2026-11-08T17:33:40.906765",
+    "status": "mirrored"
+  },
+  "harper": {
+    "repo": "Automattic/harper",
+    "url": "https://github.com/Automattic/harper.git",
+    "category": "Çevrimdışı Dilbilgisi & Diksiyon Kontrolü",
+    "path": "/Users/qwerty/Desktop/ai/repos/harper",
+    "commit": "11f7925c57e70eee9867b6b9cc734624ee202203",
+    "cloned_at": "2026-11-08T17:33:52.964331",
+    "status": "mirrored"
+  },
+  "mattpocock-skills": {
+    "repo": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills.git",
+    "category": "Wayfinder Navigasyonu & Strict Domain Modelleme",
+    "path": "/Users/qwerty/Desktop/ai/repos/mattpocock-skills",
+    "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "cloned_at": "2026-11-08T17:33:54.202525",
+    "status": "mirrored"
+  },
+  "decepticon": {
+    "repo": "BitterSecurity/Decepticon",
+    "url": "https://github.com/BitterSecurity/Decepticon.git",
+    "category": "Otonom Red Team & Güvenlik Sızma Testi",
+    "path": "/Users/qwerty/Desktop/ai/repos/decepticon",
+    "commit": "df879550544d36b6b1e69062f05adae28537adf2",
+    "cloned_at": "2026-11-08T17:34:09.928068",
+    "status": "mirrored"
+  },
+  "ghidra": {
+    "repo": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/NationalSecurityAgency/ghidra.git",
+    "category": "ARM64 Tersine Mühendislik & Decompiler",
+    "path": "/Users/qwerty/Desktop/ai/repos/ghidra",
+    "commit": "e45e5a62fd66c2e48514931f6e356aff33a79fcb",
+    "cloned_at": "2026-11-08T17:35:07.222389",
+    "status": "mirrored"
+  },
+  "airllm": {
+    "repo": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm.git",
+    "category": "Katman Katman Düşük Bellekli LLM Çıkarımı",
+    "path": "/Users/qwerty/Desktop/ai/repos/airllm",
+    "commit": "d9f0025607945e51684ed53e5e4163d8f4d9a6d2",
+    "cloned_at": "2026-11-08T17:35:09.075809",
+    "status": "mirrored"
+  },
+  "maka": {
+    "repo": "apache/maka",
+    "url": "https://github.com/apache/maka.git",
+    "category": "Olay Tabanlı Ajan Denetim İzi (Audit Trail)",
+    "path": "/Users/qwerty/Desktop/ai/repos/maka",
+    "commit": "b511478d0a01d2a20437a56cd435ab71a6cb2815",
+    "cloned_at": "2026-11-08T17:35:23.910040",
+    "status": "mirrored"
+  },
+  "ai-job-search": {
+    "repo": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/MadsLorentzen/ai-job-search.git",
+    "category": "Teknik Portföy & Yetkinlik Sentezi",
+    "path": "/Users/qwerty/Desktop/ai/repos/ai-job-search",
+    "commit": "4db9ed7308fd22b6198f03a83b31be7b211a787c",
+    "cloned_at": "2026-11-08T17:35:25.472557",
+    "status": "mirrored"
+  },
+  "rea": {
+    "repo": "morluto/rea",
+    "url": "https://github.com/morluto/rea.git",
+    "category": "207 Araçlı Otonom Tersine Mühendislik Çatısı",
+    "path": "/Users/qwerty/Desktop/ai/repos/rea",
+    "commit": "03a3fcbcea87d6cb7485bffaee77d0338a0ab635",
+    "cloned_at": "2026-11-08T17:35:41.496536",
+    "status": "mirrored"
+  },
+  "desktop": {
+    "repo": "desktop/desktop",
+    "url": "https://github.com/desktop/desktop.git",
+    "category": "Electron / ASAR İnceleme & IPC Denetimi",
+    "path": "/Users/qwerty/Desktop/ai/repos/desktop",
+    "commit": "1bfab971ad2d373d5ef996dda2b894232658f8f6",
+    "cloned_at": "2026-11-08T17:35:47.029462",
+    "status": "mirrored"
+  },
+  "evolution-api": {
+    "repo": "evolution-foundation/evolution-api",
+    "url": "https://github.com/evolution-foundation/evolution-api.git",
+    "category": "Çok Kanallı Mesajlaşma & WhatsApp API Ağ Geçidi",
+    "path": "/Users/qwerty/Desktop/ai/repos/evolution-api",
+    "commit": "fa09d37892cdbb1d65a250155d293d92230c5b30",
+    "cloned_at": "2026-11-08T17:35:48.498626",
+    "status": "mirrored"
+  },
+  "open-seo": {
+    "repo": "every-app/open-seo",
+    "url": "https://github.com/every-app/open-seo.git",
+    "category": "Açık Kaynak SEO Analizi & AI Görünürlük (GEO)",
+    "path": "/Users/qwerty/Desktop/ai/repos/open-seo",
+    "commit": "46b815be34723e46ceeefe9b2b907bb62b62fd76",
+    "cloned_at": "2026-11-08T17:35:55.302065",
+    "status": "mirrored"
+  },
+  "superpowers": {
+    "repo": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers.git",
+    "category": "Ajanik Yazılım Metodolojisi & TDD Çerçevesi",
+    "path": "/Users/qwerty/Desktop/ai/repos/superpowers",
+    "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+    "cloned_at": "2026-11-08T17:35:56.876226",
+    "status": "mirrored"
+  },
+  "youtube-automation-agent": {
+    "repo": "darkzOGx/youtube-automation-agent",
+    "url": "https://github.com/darkzOGx/youtube-automation-agent.git",
+    "category": "Otonom YouTube / Shorts Video Üretim Fabrikası",
+    "path": "/Users/qwerty/Desktop/ai/repos/youtube-automation-agent",
+    "commit": "e973d515aef90c467da2289144df737a3bd03859",
+    "cloned_at": "2026-11-08T17:35:59.738118",
+    "status": "mirrored"
+  },
+  "reverse-api-engineer": {
+    "repo": "kalil0321/reverse-api-engineer",
+    "url": "https://github.com/kalil0321/reverse-api-engineer",
+    "category": "Backend, API Platformu & Tersine API Mühendisliği",
+    "path": "/Users/qwerty/Desktop/ai/repos/reverse-api-engineer",
+    "skill_name": "reverse-api-engineer",
+    "commit": "cd221e9ef5fe30d4fb66ad0d5198f179191aca57",
+    "cloned_at": "2026-11-08T17:59:03.593523",
+    "status": "mirrored"
+  },
+  "ui-ux-pro-max-skill": {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "category": "UI/UX Tasarım Standartları & Prototipleme Becerisi",
+    "path": "/Users/qwerty/Desktop/ai/repos/ui-ux-pro-max-skill",
+    "skill_name": "ui-ux-pro-max",
+    "commit": "6ae86f61f520d6ca229d2f40e070410638c908c5",
+    "cloned_at": "2026-11-13T19:03:06.083644",
+    "status": "mirrored"
+  },
+  "impeccable": {
+    "repo": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "category": "Web Arayüz Kalite Denetimi & Frontend Standartları",
+    "path": "/Users/qwerty/Desktop/ai/repos/impeccable",
+    "skill_name": "impeccable",
+    "commit": "c4cd1924c389f68d37c687d9c2bbf13f12547c41",
+    "cloned_at": "2026-11-13T19:03:37.739032",
+    "status": "mirrored"
+  },
+  "diagram-design": {
+    "repo": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "category": "Mermaid & SVG Mimari Diyagram Tasarımı",
+    "path": "/Users/qwerty/Desktop/ai/repos/diagram-design",
+    "skill_name": "diagram-design",
+    "commit": "f6db0decea96de66b901331a0f79a8d4b147ebae",
+    "cloned_at": "2026-11-13T19:04:40.416562",
+    "status": "mirrored"
+  },
+  "penpot": {
+    "repo": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "category": "Açık Kaynak UI/UX Tasarım & Prototipleme Platformu",
+    "path": "/Users/qwerty/Desktop/ai/repos/penpot",
+    "skill_name": "penpot",
+    "commit": "8715450f535d3cb0da43f8d61ce0d76f1ae081bb",
+    "cloned_at": "2026-11-13T19:07:26.480821",
+    "status": "mirrored"
+  },
+  "mcp-for-blender": {
+    "repo": "ahujasid/mcp-for-blender",
+    "url": "https://github.com/ahujasid/mcp-for-blender",
+    "category": "Blender 3D Modelleme & Sahne Otomasyonu (MCP Sunucusu)",
+    "path": "/Users/qwerty/Desktop/ai/repos/mcp-for-blender",
+    "skill_name": "mcp-for-blender",
+    "commit": "8f40787fbde8e6d8fe51c5a3553e5635fff40d2b",
+    "cloned_at": "2026-11-13T19:07:29.768708",
+    "status": "mirrored"
+  },
+  "img2threejs": {
+    "repo": "img2threejs/img2threejs",
+    "url": "https://github.com/img2threejs/img2threejs",
+    "category": "2D Görselden Three.js 3D Sahne ve WebGL Dönüştürücü",
+    "path": "/Users/qwerty/Desktop/ai/repos/img2threejs",
+    "skill_name": "img2threejs",
+    "commit": "0c0c49bc168e648dbaf9c8c080474de0b3a941b6",
+    "cloned_at": "2026-11-13T19:07:31.689507",
+    "status": "mirrored"
+  },
+  "remotion": {
+    "repo": "remotion-dev/remotion",
+    "url": "https://github.com/remotion-dev/remotion",
+    "category": "React & TypeScript ile Programatik Video Üretim Motoru",
+    "path": "/Users/qwerty/Desktop/ai/repos/remotion",
+    "skill_name": "remotion-video",
+    "commit": "dba0f868a294f41138c322f42644d0b1663feb1c",
+    "cloned_at": "2026-11-13T19:10:30.121225",
+    "status": "mirrored"
+  },
+  "video-shotcraft": {
+    "repo": "Vincentwei1021/video-shotcraft",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "category": "Yapay Zeka Video Planlama, Sinematografi & Shotcraft",
+    "path": "/Users/qwerty/Desktop/ai/repos/video-shotcraft",
+    "skill_name": "video-shotcraft",
+    "commit": "6700db2ba80572ebc777b99d72049679fed9840c",
+    "cloned_at": "2026-11-13T19:10:57.631218",
+    "status": "mirrored"
+  },
+  "lemo-opuscar": {
+    "repo": "lemomo-ai/lemo-opuscar",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar",
+    "category": "Otomotiv Kokpit Arayüzü, Akıllı Araç UX & Multimedya",
+    "path": "/Users/qwerty/Desktop/ai/repos/lemo-opuscar",
+    "skill_name": "lemo-opuscar",
+    "commit": "3a7132b996be0241c1ea0ab180d519f06e6f10b6",
+    "cloned_at": "2026-11-13T19:11:56.790631",
+    "status": "mirrored"
+  },
+  "hyperframes": {
+    "repo": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "category": "HeyGen Hyperframes / Video Frame & Avatar Üretim Sistemi",
+    "path": "/Users/qwerty/Desktop/ai/repos/hyperframes",
+    "skill_name": "hyperframes",
+    "commit": "d79e72c02479b77195521d9a630702f7e0f53b00",
+    "cloned_at": "2026-11-13T19:12:28.856928",
+    "status": "mirrored"
+  }
+}

@@ -1,0 +1,56 @@
+# -----------------------------------------------------------------------------
+# myAIagent - Git Ignore Rules
+# -----------------------------------------------------------------------------
+
+# Dependency Repositories (Mirrored tools catalog: ~4.9GB)
+# Repositories can be cloned on demand via `python3 clone_vault.py`
+repos/
+
+# Local video, audio and test generation workspaces
+metro_video/
+metro_test/
+son_tren_video/
+reel_analysis/
+turkish_voices_test/
+Orkestrasyon Katmanı/
+
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python Virtual Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
